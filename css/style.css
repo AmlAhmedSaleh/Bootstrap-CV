@@ -1,0 +1,21 @@
+.hyper{
+   
+    height: 750px ;
+    position: relative;
+    overflow: hidden;
+}
+
+.content{
+    position: absolute;
+    overflow: hidden;
+    transform: translateX(350%);
+    transition: .4s;
+}
+
+button:hover i {
+    color:#434242;
+}
+
+#PersonalInfo{
+    transform: translateX(0%);
+}
